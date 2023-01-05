@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,400&family=Outfit&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;400;500;600&family=Ruda:wght@500&family=Ubuntu+Mono&display=swap");
+:root {
+    border: 2px solid green;
+    /* padding-left: 10em; */
+}
+
+h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #4f4f4f;
+}
+
+.flex {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 10em;
+    min-width: 10em;
+    margin: 20em;
+    /* align-items: flex-start;
+    justify-content: center; */
+    /* border: 2px solid red; */
+    margin: 1.5em;
+    margin-inline: 1em;
+}
+
+p {
+    font-family: "Ubuntu Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #333333;
+}
+
+footer {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* text-align: center; */
+    color: #a9a9a9;
+    margin-top: 3em;
+}
